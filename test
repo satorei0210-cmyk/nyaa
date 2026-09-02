@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>猫の文具マーケット「にゃん具博」</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="logo">🐾 にゃん具博</div>
+    <nav class="nav">
+      <a href="#about">概要</a>
+      <a href="#sns">SNS</a>
+      <a href="#archive">過去の開催</a>
+      <a href="#access">アクセス</a>
+    </nav>
+  </header>
+
+  <!-- メインビジュアル -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="badge">今回のテーマ：福 🌸</span>
+      <h1>文具がつなぐ、猫と福。</h1>
+      <p>猫好きと文具好きのためのスペシャルマーケット</p>
+    </div>
+  </section>
+
+  <!-- 今回のマーケット情報 -->
+  <section id="about" class="section">
+    <h2>開催概要</h2>
+    <div class="card event-info">
+      <h3>にゃん具博 2026 〜福招きラベンダーマーケット〜</h3>
+      <table>
+        <tr>
+          <th>日時</th>
+          <td>2026年◯月◯日（土）・◯日（日）10:00〜17:00</td>
+        </tr>
+        <tr>
+          <th>会場</th>
+          <td>◯◯ホール（最寄り駅：◯◯駅 徒歩3分）</td>
+        </tr>
+        <tr>
+          <th>入場料</th>
+          <td>無料</td>
+        </tr>
+        <tr>
+          <th>限定企画</th>
+          <td>ラベンダーカラーの限定猫文具、「福」モチーフのオリジナル和紙シール配付</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- 公式SNS & 最新投稿 -->
+  <section id="sns" class="section bg-light">
+    <h2>公式SNS</h2>
+    <p>出展者情報や限定グッズの最新情報を更新中！</p>
+    <div class="sns-buttons">
+      <a href="https://instagram.com" target="_blank" rel="noopener" class="btn instagram">Instagram</a>
+      <a href="https://x.com" target="_blank" rel="noopener" class="btn x-twitter">X (旧Twitter)</a>
+    </div>
+    
+    <!-- SNS埋め込み枠（例） -->
+    <div class="card sns-embed">
+      <p>※ここにInstagramやXのタイムライン・最新投稿（埋め込みコード）を配置できます。</p>
+    </div>
+  </section>
+
+  <!-- 過去の開催状況 -->
+  <section id="archive" class="section">
+    <h2>過去の開催風景</h2>
+    <div class="archive-grid">
+      <div class="archive-card">
+        <div class="photo-placeholder">📷 会場写真</div>
+        <h3>第2回 にゃん具博</h3>
+        <p>2025年秋開催 / 来場者数：約3,000名</p>
+      </div>
+      <div class="archive-card">
+        <div class="photo-placeholder">📷 会場写真</div>
+        <h3>第1回 にゃん具博</h3>
+        <p>2025年春開催 / 来場者数：約2,000名</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- アクセス -->
+  <section id="access" class="section bg-light">
+    <h2>アクセス</h2>
+    <div class="card">
+      <p><strong>会場名：</strong>◯◯イベントホール</p>
+      <p><strong>住所：</strong>東京都◯◯区◯◯ 1-2-3</p>
+      <!-- Google Mapsの埋め込み枠 -->
+      <div class="map-placeholder">
+        <p>※ここにGoogleマップの埋め込み（iframe）が入ります</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <p>&copy; にゃん具博 All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
